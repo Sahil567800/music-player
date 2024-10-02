@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+</head>
+
+<body>
+    <header id="Header-main">
+        <div class="container">
+            <div class="row">
+                <div class="logo"><img src="/img/sk logo.jpg" width="60px" alt=""></div>
+                <div class="nav-buttons">
+                    <button class="sign-up">Sign up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="songs-main">
+        <div class="container">
+            <div class="discover-song-list">
+                <h1>Discover</h1>
+                <div class="row">
+                    <div class="songsItem">
+                        <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="0">Dil cheez tujhe dedi</p>
+                    </div>
+                    <div class="songsItem"> <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="1">2_Many_Girls_.mp3</p>
+                    </div>
+                    <div class="songsItem"> <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="2">02.Ladki Ki Party .mp3</p>
+                    </div>
+                    <div class="songsItem"> <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="3">10 - Bohemia - Right Now .mp3i</p>
+                    </div>
+                    <div class="songsItem" > <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="4">All Black .mp3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-song-list">
+                <h1>Trending</h1>
+                <div class="row">
+                    <div class="songsItem"> <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="5">BAPU_Z~1.mp3</p>
+                    </div>
+                    <div class="songsItem" > <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="6">Mombatiye .mp3</p>
+                    </div>
+                    <div class="songsItem" > <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="7">Proper Patola .mp3</p>
+                    </div>
+                    <div class="songsItem" > <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="8">Swag_Mera_Desi.mp3</p>
+                    </div>
+                    <div class="songsItem" > <img src="img/play-button-green-icon.png" alt="">
+                        <p class="songName" id="9">Wakhra Swag.mp3</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="music-player-main">
+        <div class="container">
+            <input type="range" id="progressBar">
+            <p id="currentSong">Dil cheez tujhe dedi</p>
+            <div class="controls">
+            <i id="Prev" class="fa fa-step-backward" aria-hidden="true"></i>
+            <i class="fa fa-play" aria-hidden="true" id="play"></i>
+            <i id="Next" class="fa fa-step-forward" aria-hidden="true"></i>
+        </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

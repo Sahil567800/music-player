@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#Header-main{
+    background-color: black;
+    color: green;
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.row{
+    display: flex;
+}
+.logo{
+    width: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav-buttons{
+    width: 50%;
+    margin: 8px 0;
+    text-align: end;
+}
+.nav-buttons .sign-up{
+    background: black;
+  color: white;
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80px;
+
+}
+.nav-buttons .login{
+    background: green;
+  color: black;
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80px;
+    border: none;
+}
+#songs-main{
+    width: 100%;
+    float: left;
+    background-color: gray;
+    height: 600px;
+    background-image: url(/img/mpbg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discover-song-list{
+    width: 100%;
+  float: left;
+  height: 300px;
+}
+.songsItem{
+    height: 200px;
+    background: black;
+    width: 200px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.songsItem img{
+    width: 150px;
+    padding: 10px;
+}
+#music-player-main{
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    height: 120px;
+    position: sticky;
+    bottom: 0;
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+i{
+    font-size: 30px !important;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.controls{
+    text-align: center;
+    margin: 10px 0;
+}
